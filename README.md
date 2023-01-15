@@ -36,12 +36,14 @@ sample body
 1. Pull the repo
 2. type npm i
 3. create tables in postgress 
+# Orders table
   > create table orders(
 id serial unique,
 datetime Date,
 fee int,
 service int	
 )
+# Services table
 > create table services(
 id serial unique,
 	serviceid int,
