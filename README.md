@@ -10,6 +10,7 @@ user can fetch data from the database as well based on the required properties.
  example {
   connectionString:Process.env.DatabaseUrl in the connection with knex and pg
  }
+ 3. need to use CORS for cross origin in node js 
 
 # specs
 1. user can post new order using 'http://localhost:3000/addOrder'
